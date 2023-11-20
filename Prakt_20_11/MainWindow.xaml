@@ -1,0 +1,16 @@
+﻿<Window x:Class="Prakt_20_11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prakt_20_11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ToolBar VerticalAlignment="Bottom">
+            <Button Content="File" Click="Button_Click"></Button>
+            <Button Content="Open" Click="Button_Click1"></Button>
+            <Button Content="Save" Click="Button_Click2"></Button>
+        </ToolBar>
+    </Grid>
+</Window>
